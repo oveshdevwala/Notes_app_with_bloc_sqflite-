@@ -9,7 +9,12 @@ import 'package:notes_app_bloc_database/database/colors.dart';
 import 'package:notes_app_bloc_database/screens/home.dart';
 
 class AddNotesScreen extends StatelessWidget {
-  AddNotesScreen({super.key, required this.index, required this.mid, required this.disc, required this.title});
+  AddNotesScreen(
+      {super.key,
+      required this.index,
+      required this.mid,
+      required this.disc,
+      required this.title});
   int index;
   int mid;
   String title;
